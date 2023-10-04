@@ -29,7 +29,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   // Ensure req.body.query exists
   if (!userFilterText) {
-    return res.status(400).json({ error: 'Missing search query' });
+    res.status(400).json({ error: 'Missing search query' });
     return;
   }
 
