@@ -8,3 +8,8 @@ export type Movie = {
   thumbnail_width: number;
   thumbnail_height: number;
 };
+
+export type MovieResponse = {
+  movies: Movie[];
+  total: number;
+};
