@@ -1,18 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  target: 'serverless',
   images: {
     remotePatterns: [{ protocol: 'https', hostname: 'upload.wikimedia.org' }],
   },
   experimental: {
-    outputFileTracing: true
+    outputFileTracingIncludes: {
+      '/api/ai': ['./types/filters.ts'],
+    },
   },
-  serverlessFunctions: {
-    'pages/api/ai.js': {
-      outputFileTracingIncludes: ['types/filters.ts']
-    }
-  }
 };
 
 module.exports = nextConfig;
