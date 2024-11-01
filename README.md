@@ -1,13 +1,13 @@
 # Deliverable Interview Takehome
 
-### Overview
+## Overview
 
 - Clone this repository
 - Implement your solution
-- Email tim@mydeliverable.com with a link to your repository
+- Email <tim@mydeliverable.com> with a link to your repository
 - A short debrief call to discuss your solution will be scheduled if applicable
 
-# Problem
+## Problem
 
 Using the provided Next.js project, implement the following simple fullstack application:
 
@@ -17,9 +17,9 @@ Using the provided Next.js project, implement the following simple fullstack app
 
 Creating these three features will require implementing a simple React UI, as well as implementing the APIs that will power them.
 
-For the AI search, you have been given the [TypeChat](https://microsoft.github.io/TypeChat/) library. The accompanying documentation and [examples](https://microsoft.github.io/TypeChat/docs/examples/) on their GitHub should give you clear direction. You are also provided the Typscript interface for the filters in the `/types` directory. _Being able to describe at a high-level what TypeChat is doing, and how the type files are being used, is important!_
+For the AI search, you have been given the [TypeChat](https://microsoft.github.io/TypeChat/) library. The accompanying documentation and [examples](https://microsoft.github.io/TypeChat/docs/examples/) on their GitHub should give you clear direction. You are also provided the TypeScript interface for the filters in the `/types` directory. _Being able to describe at a high-level what TypeChat is doing, and how the type files are being used, is important!_
 
-TypeChat requires an OpenAI API key - if you do not have one, reach out to tim@mydeliverable.com to get one for free. This should be set in your `.env.local` file
+TypeChat requires an OpenAI API key - if you do not have one, reach out to <tim@mydeliverable.com> to get one for free. This should be set in your `.env.local` file
 
 The rest is a choose-your-own-adventure. Use technologies you are comfortable with. This is _very_ close to the stack we will be building with at Deliverable.
 
